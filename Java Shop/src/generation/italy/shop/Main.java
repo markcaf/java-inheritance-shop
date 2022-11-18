@@ -8,11 +8,7 @@ public class Main {
 				"POCO X4 NFC",
 				"Xiaomi",
 				420);
-		
-		Prodotto prodotto2 = new Prodotto(
-				"TV 4K Res 2501",
-				"LG",
-				1299);
+
 		
 		Smartphone tel1 = new Smartphone(
 				"S12 Ultra", 
@@ -21,9 +17,16 @@ public class Main {
 				1234512340, 
 				1024);
 		
+		Televisore tv1 = new Televisore(
+				"TV 4K Res 2501", 
+				"LG", 
+				1200, 
+				50, 
+				true);
+		
 		System.out.println(prodotto1.toString());
-		System.out.println(prodotto2.toString());
 		System.out.println(tel1.toString());
+		System.out.println(tv1.toString());
 
 	}
 
