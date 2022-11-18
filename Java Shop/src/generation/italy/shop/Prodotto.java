@@ -64,6 +64,15 @@ public class Prodotto {
 		return codice;
 	}
 	
-	
+	@Override
+	public String toString() {
+		
+		return "Prodotto "
+				+ "\nCodice: " + codice
+				+ "\nNome: " + nome
+				+ "\nMarca: " + marca
+				+ "\nPrezzo iva esclusa: " + mostraPrezzo()
+				+ "\nPrezzo iva inclusa: " + prezzoConIva();
+	}
 
 }
