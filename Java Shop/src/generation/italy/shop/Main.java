@@ -3,12 +3,6 @@ package generation.italy.shop;
 public class Main {
 
 	public static void main(String[] args) {
-
-		Prodotto prodotto1 = new Prodotto(
-				"POCO X4 NFC",
-				"Xiaomi",
-				420);
-
 		
 		Smartphone tel1 = new Smartphone(
 				"S12 Ultra", 
@@ -24,9 +18,16 @@ public class Main {
 				50, 
 				true);
 		
-		System.out.println(prodotto1.toString());
+		Cuffie c1 = new Cuffie(
+				"In Ear 10X", 
+				"JBL", 
+				20, 
+				"Nero", 
+				"Wireless");
+		
 		System.out.println(tel1.toString());
 		System.out.println(tv1.toString());
+		System.out.println(c1.toString());
 
 	}
 
