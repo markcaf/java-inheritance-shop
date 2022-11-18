@@ -72,7 +72,7 @@ public class Prodotto {
 				+ "\nNome: " + nome
 				+ "\nMarca: " + marca
 				+ "\nPrezzo iva esclusa: " + mostraPrezzo()
-				+ "\nPrezzo iva inclusa: " + prezzoConIva();
+				+ "\nPrezzo iva inclusa: " + prezzoConIva() + "\n";
 	}
 
 }
