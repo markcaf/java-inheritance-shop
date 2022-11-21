@@ -2,10 +2,10 @@ package generation.italy.shop;
 
 public class Smartphone extends Prodotto {
 	
-	private int codiceImei;
+	private String codiceImei;
 	private int memoria;
 
-	public Smartphone(String nome, String marca, int prezzo, int codiceImei, int memoria) {
+	public Smartphone(String nome, String marca, int prezzo, String codiceImei, int memoria) {
 		super(nome, marca, prezzo);
 		this.codiceImei = codiceImei;
 		this.memoria = memoria;

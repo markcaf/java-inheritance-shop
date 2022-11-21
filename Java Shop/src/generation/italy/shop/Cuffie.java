@@ -3,9 +3,9 @@ package generation.italy.shop;
 public class Cuffie extends Prodotto {
 	
 	private String colore;
-	private String tipologia;
+	private boolean tipologia;
 
-	public Cuffie(String nome, String marca, int prezzo, String colore, String tipologia) {
+	public Cuffie(String nome, String marca, int prezzo, String colore, boolean tipologia) {
 		super(nome, marca, prezzo);
 		this.colore = colore;
 		this.tipologia = tipologia;
